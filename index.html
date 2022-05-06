@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="style3.css" rel="stylesheet">
+	<link href="style2.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+	
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+   <script src="http://kit.fontawesome.com/4295f6a8c8.js"
+		   crossorigin="anonymous">
+	  
+		   </script> 
+
+	
+<title>test</title>
+</head>
+
+<body>
+   <nav class="navbar">
+	 <div class="navber__logo">
+		 
+		 <a href="" id="a4" >화폐의 역사</a>
+		</div>
+	 <ul class="navbar__menu">
+		 <li><a href="index.html" id="a1">한국은행에 대해</a></li>
+		 <li><a href="index2.html" id="a2">화폐의 역사</a></li>
+		 <li><a href="index2.5.html" id="a3">화폐 이야기</a></li>
+		</ul>
+	   <a href="#" class="navbar__toogleBtn">
+	   <i class="fa-solid fa-bars"></i></a>
+	</nav>
+	
+	
+	<div class="block">
+	<h1 data-scroll="toggle(.scaleUpIn, .scaleUpOut)">대한민국 화폐의 역사&nbsp;</h1>
+	<h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">화폐의 가장 근원인 한국은행에 대해서(이미지 뒤에 깔아두기) </h2>
+
+	<svg viewBox="0 0 60 60">
+		<path d="M52.254 18.327c0.816-0.804 2.127-0.804 2.937 0s0.813 2.103 0 2.907l-23.724 23.49c-0.81 0.804-2.121 0.804-2.937 0l-23.724-23.49c-0.81-0.804-0.81-2.103 0-2.907 0.813-0.804 2.127-0.804 2.937 0l22.257 21.423 22.254-21.423z"></path>
+	</svg>
+</div>
+	
+	
+	
+	
+	<div class="line1">
+		 <box1 class="left">
+			 <div class="block">
+	<h2 data-scroll="toggle(.fromRightIn, .fromRightOut) once">연도</h2>
+	<h3 data-scroll="toggle(.fromLeftIn, .fromLeftOut) once">ScrollTrigger supports vertical and horizontal scrolling, check out the <a href="horizontal.html">horizontal demo</a>.</h3>
+	<h3 data-scroll="toggle(.fromRightIn, .fromRightOut) once">This block only animates once.</h3>
+				 </div></box1>
+		
+		  <div id="app">
+    <main class="sticky-container" ref="sticky-container">
+      <div class="sticky">
+<div class="slide-container">
+          <div class="slide" ref="sl1">
+            <div class="slide-big-text">
+              <p>안녕하세요.</p>
+            </div>
+          </div>
+		
+		<div class="image" data-aos="fade-up"><img src="한국은행 역사1.jpg" width="600px" height="420px"> </div> 
+		
+	</div>
+		  
+		<div class="line1">
+			
+		 <box1 class="right2">
+			 <div class="block">
+	<h2 data-scroll="toggle(.fromRightIn, .fromRightOut) once">연도</h2>
+	<h3 data-scroll="toggle(.fromLeftIn, .fromLeftOut) once">ScrollTrigger supports vertical and horizontal scrolling, check out the <a href="horizontal.html">horizontal demo</a>.</h3>
+	<h3 data-scroll="toggle(.fromRightIn, .fromRightOut) once">This block only animates once.</h3>
+				 </div></box1>
+		
+		  <div id="app">
+    <main class="sticky-container" ref="sticky-container">
+      <div class="sticky">
+<div class="slide-container">
+          <div class="slide" ref="sl1">
+            <div class="slide-big-text">
+              <p>안녕하세요.</p>
+            </div>
+          </div>
+		
+		<div class="image2" data-aos="fade-up"><img src="한국은행 역사1.jpg" width="600px" height="420px"> </div> 
+		
+	</div>  
+		  
+		  
+		  
+		    
+		  
+		  
+		  <div class="line3">
+	
+
+		  
+		  
+		<div class="text" data-aos="fade-up"><h2>한국은행의 업무(그려야할 것 같음)</h2><br><br><br><br><p>한국은행의 업무 첫번째 중 가장 중요한것이 화폐를 발행하는 것이다.</p> <box3 class="image3"></box3><img src="사진2.jpg" width="300" height="166"></div> 
+		
+	</div>
+		  
+		</div>
+		
+		<script src="ScrollTrigger.min.js"></script>
+<script>
+	
+	
+	
+window.counter = function() {
+	// this refers to the html element with the data-scroll-showCallback tag
+	var span = this.querySelector('span');
+	var current = parseInt(span.textContent);
+
+	span.textContent = current + 1;
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+  var trigger = new ScrollTrigger({
+	  addHeight: true
+  });
+});
+	
+
+AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+ 
+
+	
+</script>
+		
+    </body>
+</html>
